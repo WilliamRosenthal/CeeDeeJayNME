@@ -79,3 +79,14 @@ plot_categorical_variables(data_cleaned)
 plot_salary_relationships(data_cleaned)
 plot_correlation_matrix(corr_matrix)
 plot_scatter_plot(data_cleaned)
+
+# Scatter Plot with Trend Line for 'log(last_evaluation)' vs 'log(average_montly_hours)' on the sampled data
+sampled_data = transformed_data.sample(frac=0.1, random_state=42)
+
+plt.figure(figsize=(10, 6))
+sns.regplot(x='last_evaluation_log', y='average_montly_hours_log', data=sampled_data, line_kws={"color":"red"})
+plt.title('Log of Last Evaluation vs Log of Average Monthly Hours with Trend Line (Sampled Data)')
+plt.xlabel('Log of Last Evaluation')
+plt.ylabel('Log of Average Monthly Hours')
+plt.savefig('log_evaluation_vs_log_hours_trend_sampled.png')
+plt.close() 
