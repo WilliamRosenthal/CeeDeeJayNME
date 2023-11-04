@@ -1,0 +1,30 @@
+Based on Visualizations:
+
+1. Box Plots:
+   - Satisfaction levels, last evaluations, and the number of projects show a fairly uniform distribution without significant outliers.
+   - Average monthly hours show a broad range, indicating variability in the workload among employees.
+   - Time spent at the company has some outliers, with certain employees having an unusually long tenure.
+
+2. Categorical Variables:
+   - The 'sales' department has the highest number of employees, followed by 'technical' and 'support', while 'management' has the fewest.
+   - Most employees are in the 'low' salary bracket, followed by 'medium' and 'high'.
+
+3. Salary Relationships:
+   - There's a slight trend of higher satisfaction levels among employees with higher salaries.
+   - Last evaluations don't show a distinct pattern across salary levels, suggesting performance appraisals are consistent regardless of salary.
+   - Employees with higher salaries tend to work more hours and have longer tenures at the company.
+
+4. Correlation Matrix:
+   - There's a moderate positive correlation between the number of projects and average monthly hours, and a moderate negative correlation between satisfaction levels and the number of projects.
+   - Other variables show weak or no significant correlations.
+
+5. Scatter Plot (Satisfaction vs. Evaluation by Salary):
+   - A cluster of employees with low satisfaction but high evaluation scores is observed across all salary levels, potentially indicating a risk group for attrition.
+   - Employees with higher salaries tend to have higher satisfaction and evaluation scores.
+
+Conclusions:
+
+- Employee Satisfaction: Satisfaction levels show minor variation across salary levels, indicating other factors might influence employee contentment.
+- Performance vs. Satisfaction: The presence of a group with high evaluations but low satisfaction levels suggests that good performance does not necessarily equate to high satisfaction.
+- Salary and Workload: Higher salaries correlate with more hours worked and longer tenures, suggesting that salary progression might be tied to workload and company loyalty.
+- Risk of Attrition: The identified cluster of dissatisfied yet high-performing employees could be at risk of leaving, which warrants further investigation by the company.
